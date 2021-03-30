@@ -1,0 +1,72 @@
+{
+    "title": " Top Five Weird Deals of the Day",
+    "products": [
+      {
+        "productName": "A Cat Butt Tissue Holder",
+        "price": "$34.94",
+        "description": "Hold tissue papers",
+        "features": [
+            "Hold Tissue papers very close to your hands",
+            "Humorous Tissue Holder",
+            "Fits Square Tissue Boxes",
+            "Makes a Great Gift",
+            "Made From Good Quality Materials"
+        ],
+        "image": "cat.jpeg"
+      },
+
+      {
+        "productName": "A Wall Decal of Senior Citizens in a Golf Cart",
+        "price": "$21.96",
+        "description": "Decorates your Wall with your Beautiful picture",
+        "features": [
+          "Safe on Painted Walls",
+          "Easy and Fun to Apply",
+          "Simple Peel and Stick",
+          "Largest Selection"
+        ],
+        "image": "oldcouple.jpeg"
+      },
+
+      {
+        "productName": "A Dog Dryer",
+        "price": "$39.95",
+        "description": "Dry Your Dog in Your Living Room",
+        "features": [
+          "Puff-N-Fluff Dog Dryer",
+          "Reduces Wet Dog Odor",
+          "Quickly Dry your Dog after a Bath"
+        ],
+        "image": "dogdryer.jpeg"
+      },
+
+      {
+        "productName": "A Baby Mop",
+        "price": "$29.99",
+        "description": "Lets your Baby Mop your House",
+        "features": [
+          "Works for any surface",
+          "Awesome gift for new borns",
+          "Enjoy watching them clean your house"
+        ],
+        "image": "babymop.jpeg"
+      },
+
+      {
+        "productName": "A Realistic Dog Pillow",
+        "price": "$14.99",
+        "description": "Enjoy the Company of your Furry Friend",
+        "features": [
+          "Ultra-soft",
+          "Good Rebound",
+          "Zipper closure",
+          "Vivid cartoon pillow for crazy fun"
+        ],
+        "image": "dogpillow.jpeg"
+      }
+    ]
+  }
+
+
+
+    
