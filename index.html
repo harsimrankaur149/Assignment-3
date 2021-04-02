@@ -4,12 +4,11 @@
 	<meta charset="utf-8" />
 	<title> Weired Deals Application</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="css/normalize.css" rel="stylesheet" />
+	<script src="js/main.js" async></script>
 	<link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
-	<!-- STEP 1: Build out a HEADER and a SECTION element -->
 	<header>
         
 	</header>
@@ -20,98 +19,5 @@
 	<footer>
 
 	</footer>
-	<script>
-		///Bind the HEADER and the SECTION elements above to variables */
-		let header = document.querySelector('header');
-		let section = document.querySelector('section');
-
-		// Store JSON URL in a variable
-        let requestingURL = "https://github.com/harsimrankaur149/Assignment-3/blob/main/products.json";
-
-		
-		// Create a new XHR object 
-        let request = new XMLHttpRequest();
-		
-		// open a new request using the open method of XHR object 
-        request.open("GET",requestingURL);
-	
-		//set up the response type
-        request.responseType = "json"; 
-
-		
-		//send the request
-        request.send(); 
-	
-		//set up an event handler to listen for onload, so we don't do anything until the data return 
-        request.onload = function ()
-        {
-           let  weirdDeals = request.response;
-            console.log(weirdDeals);
-            heading(weirdDeals);
-            products(weirdDeals);
-        };
-		
-		//create populateHeader and topFlavours functions
-        function heading(obj)
-        {
-            let heading1 = document.createElement("h1");
-            heading1.textContent = obj
-            ["title"];
-            header.appendChild(heading1);
-        }
-
-        function products(obj)
-        {
-            let products = obj
-            ["products"];
-        
-
-        for(let i= 0; i<products.length;i++)
-        {
-            let article = document.createElement("article");
-            let h2 = document.createElement("h2");
-            let img = document.createElement("img");
-            let p1 = document.createElement("p");
-            let p2 = document.createElement("p");
-            let list = document.createElement("ul");
-
-            // setting attributes
-            img.setAttribute("src", "images/" + products[i].image);
-            img.setAttribute("alt", products[i].productName);
-            h2.textContent = products[i].productName;
-            p1.textContent = products[i].price;
-            p2.textContent = products[i].description;
-
-            // array for features
-            let features = products[i].features;
-            
-            // another loop
-            for(let j = 0; j< features.length; j++)
-            {
-                let productFeatures = document.createElement("li");
-                productFeatures.textContent = features[j];
-                list.appendChild(productFeatures);
-            }
-
-            article.appendChild(img);
-            article.appendChild(h2);
-            article.appendChild(p1);
-            article.appendChild(p2);
-            article.appendChild(list);
-            section.appendChild(article);
-
-
-
-
-
-        }
-        }
-
-		
-		
-		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
-    
-    
-		</script>
 	</body>
 </html>
