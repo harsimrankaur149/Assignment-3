@@ -23,7 +23,6 @@
         request.onload = function ()
         {
            let  weirdDeals = request.response;
-            console.log(weirdDeals);
             heading(weirdDeals);
             products(weirdDeals);
         };
