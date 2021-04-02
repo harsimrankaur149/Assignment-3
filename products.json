@@ -12,7 +12,7 @@
             "Makes a Great Gift",
             "Made From Good Quality Materials"
         ],
-        "image": "cat.jpeg"
+        "image": "cat.jpg"
       },
 
       {
@@ -25,7 +25,7 @@
           "Simple Peel and Stick",
           "Largest Selection"
         ],
-        "image": "oldcouple.jpeg"
+        "image": "oldcouple.jpg"
       },
 
       {
@@ -37,7 +37,7 @@
           "Reduces Wet Dog Odor",
           "Quickly Dry your Dog after a Bath"
         ],
-        "image": "dogdryer.jpeg"
+        "image": "dogdryer.jpg"
       },
 
       {
@@ -49,7 +49,7 @@
           "Awesome gift for new borns",
           "Enjoy watching them clean your house"
         ],
-        "image": "babymop.jpeg"
+        "image": "babymop.jpg"
       },
 
       {
@@ -62,7 +62,7 @@
           "Zipper closure",
           "Vivid cartoon pillow for crazy fun"
         ],
-        "image": "dogpillow.jpeg"
+        "image": "dogpillow.jpg"
       }
     ]
   }
